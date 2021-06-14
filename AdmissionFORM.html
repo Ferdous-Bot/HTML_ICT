@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DU Admission Form</title>
+</head>
+<body bgcolor="Lightgrey">
+	<form>
+		<h2 align="center">Admission Form</h2>
+		<h5 align="center">Of</h5>
+		<h3 align="center">Dhaka University</h3>
+		<p align="center">
+		<img src="download.png" height="15%" width="5%">
+		</p><br>
+		1.First Name<input type="Text" name="firstname" size="30"><br>
+		2.Last Name<input type="Text" name="lastname" size="30"><br>
+		3.Father's Name<input type="Text" name="fathername" size="30"><br>
+		4.Mother's Name<input type="Text" name="mothername" size="30"><br>
+		5.Institution Name<input type="Text" name="institution" size="30"><br>
+		6.<label for="quantity">Quantity(between 0 and 9</label>
+			<input type="tel" id="quantity" name="quantity
+			" min="0" max="9">
+		<br>
+		7.Email<input type="Text" name="email" size="30"><br>
+		8.Password<input type="Password" name="password" size="30"><br>
+		<p>9.Enter your Gender</p>
+			Male<input type="radio" name="gender" size="30">
+			Female<input type="radio" name="gender" size="30">
+			Custom<input type="radio" name="gender" size="30"><br><br>
+		10.Your Home district
+			<select name="division">
+			<option>Dhaka</option>
+			<option>Rajshahi</option>
+			<option>Chattogram</option>
+			<option>Mymensingh</option>
+			<option>Barishal</option>
+			<option>Rangpur</option>
+			<option>Khulna</option>
+			<option>sylhet</option>
+			</select>
+			<br><br>
+		11.Subjects intersted to:<br>
+			<input type="checkbox" value="checkbox1" name="checkbox">Bangla
+			<input type="checkbox" value="checkbox2" name="checkbox">English
+			<input type="checkbox" value="checkbox3" name="checkbox">Math
+			<input type="checkbox" value="checkbox4" name="checkbox">G.K.<br><br>
+		12.<b>Your Picture</b><br>
+			<input type="hidden" value="100" name="MAX_FILE_SIZE">
+			<input name="file" type="file">
+			<br><br>
+		<p>13.Comment</p>
+		<textarea name="comments" rows="5" cols="25"></textarea><br><br>
+		<input type="submit" value="Submit Your Form" name="submit">
+		<input type="reset" value="New" name="clear">		
+	</form>
+</body>
+</html>
